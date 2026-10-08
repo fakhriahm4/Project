@@ -1,0 +1,12 @@
+# Backup
+backup/
+*.bak
+*.sql.gz
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,35 @@
+# ============================================
+# CompBen — root repository (monorepo):
+#   compben-backend/   API Express + TypeScript
+#   compben-frontend/  Vue 3 + Vite
+#   compben-database/  Migrasi & seed SQL
+# ============================================
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Environment — RAHASIA, jangan pernah di-push
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Uploads & coverage
+uploads/
+coverage/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

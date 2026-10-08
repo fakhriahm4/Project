@@ -1,0 +1,45 @@
+{
+  "name": "compben-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -p tsconfig.app.json && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "@tanstack/vue-table": "^9.2.4",
+    "axios": "^1.20.0",
+    "chart.js": "^4.5.1",
+    "date-fns": "^4.4.0",
+    "numeral": "^2.0.6",
+    "pinia": "^4.0.3",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.42",
+    "vue-chartjs": "^5.3.4",
+    "vue-router": "^5.3.1",
+    "vue-toastification": "^1.7.14",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.3",
+    "@types/numeral": "^2.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.71.0",
+    "@typescript-eslint/parser": "^8.71.0",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "@vue/tsconfig": "^0.9.1",
+    "autoprefixer": "^10.6.1",
+    "eslint": "^10.11.0",
+    "eslint-plugin-vue": "^10.11.1",
+    "postcss": "^8.5.28",
+    "prettier": "^3.9.9",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vue-tsc": "^3.3.11"
+  }
+}
